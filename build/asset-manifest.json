@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/speed-competitor/static/css/main.e9364066.css",
-    "main.js": "/speed-competitor/static/js/main.f4f685b8.js",
+    "main.css": "/speed-competitor/static/css/main.2035ddc9.css",
+    "main.js": "/speed-competitor/static/js/main.1a3cd359.js",
     "index.html": "/speed-competitor/index.html",
-    "main.e9364066.css.map": "/speed-competitor/static/css/main.e9364066.css.map",
-    "main.f4f685b8.js.map": "/speed-competitor/static/js/main.f4f685b8.js.map"
+    "main.2035ddc9.css.map": "/speed-competitor/static/css/main.2035ddc9.css.map",
+    "main.1a3cd359.js.map": "/speed-competitor/static/js/main.1a3cd359.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9364066.css",
-    "static/js/main.f4f685b8.js"
+    "static/css/main.2035ddc9.css",
+    "static/js/main.1a3cd359.js"
   ]
 }

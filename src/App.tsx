@@ -39,6 +39,17 @@ export default function App() {
       {!showSettings && firstName && secondName && (
         <SpeedCompetition firstName={firstName} secondName={secondName} />
       )}
+      <footer className="footer mt-auto">
+          Proudly made by{" "}
+          <a
+            href="https://github.com/tbajorek"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Tomasz Bajorek
+          </a>
+          {" "} in 2024
+      </footer>
     </Container>
   );
 }

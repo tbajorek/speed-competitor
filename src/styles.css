@@ -54,3 +54,11 @@ html, body, #root, .app {
   top: 0;
   border-radius: 0 !important;
 }
+
+.footer {
+  font-size: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+}
