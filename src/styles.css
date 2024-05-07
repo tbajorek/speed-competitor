@@ -1,0 +1,56 @@
+html, body, #root, .app {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.app .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 100%;
+}
+
+.app .buttons > button, .app .result button, .app .settings button {
+  width: 100%;
+  margin: auto;
+}
+
+.app .buttons > button {
+  height: 50%;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.app button.blue {
+  background-color: blue;
+  margin-bottom: 5%;
+}
+
+.app button.green {
+  background-color: green;
+  margin-top: 5%;
+}
+
+.app .result button {
+  height: fit-content;
+  margin-top: 10rem;
+}
+
+.app .settings {
+  margin-top: 2rem;
+}
+
+.settingsButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 !important;
+}
