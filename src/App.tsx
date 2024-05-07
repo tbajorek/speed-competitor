@@ -18,7 +18,9 @@ export default function App() {
   };
 
   const toggleSettingsHandler = () => {
-    setShowSettings((showBefore) => !showBefore);
+    if (firstName && secondName) {
+      setShowSettings((showBefore) => !showBefore);
+    }
   };
 
   return (
